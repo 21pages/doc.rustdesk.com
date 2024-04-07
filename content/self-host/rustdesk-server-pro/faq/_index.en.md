@@ -162,7 +162,7 @@ https://github.com/rustdesk/rustdesk/discussions/6576
     - Your domain registrar's control panel (recommended)
     - DNS providers, https://en.wikipedia.org/wiki/List_of_managed_DNS_providers 
 
- For example, if you buy a domain name `rustdesk.example.com` from Namesilo and your server's IP address is 123.123.123.123, you need to open link https://www.namesilo.com/account_domains.php, click the button with tooltip `Manage dns for the domain`, add add a `A` record with the hostname name `rustdesk` and the IP address of your server.
+ For example, if your server ip is 123.123.123.123, and want `<YOUR_DOMAIN>` to be `rustdesk.example.com`, then you can buy a domain name `example.com` from Namesilo. After that, you need to open link https://www.namesilo.com/account_domains.php, click the button with tooltip `Manage dns for the domain`, add add a `A` record with the hostname name `rustdesk` and the IP address of your server.
 ![](/docs/en/self-host/rustdesk-server-pro/faq/images/namesilo-dns-button.png)
 ![](/docs/en/self-host/rustdesk-server-pro/faq/images/namesilo-add-a-record.png)
 ![](/docs/en/self-host/rustdesk-server-pro/faq/images/namesilo-dns-table.png)
@@ -182,7 +182,7 @@ Run `nginx -h` to check whether it has been installed successfully.
 * Method 1 (Recommended): Install with snap. If snap not instaled, install snap first via following https://snapcraft.io/docs/search?q=installing+snap+on, then run `sudo snap install certbot --classic`
 * Method 2: Using `python3-certbot-nginx` instead. eg: `sudo apt-get install python3-certbot-nginx` for ubuntu
 
-Run `certbot -h` to check successful installation.
+Run `certbot -h` to check whether it has been installed successfully..
 
 #### 4. Config nginx
 
@@ -289,3 +289,6 @@ Solution: add another domain name to dns and change `<YOUR_DOMAIN>` to it, eg: `
 Notice: Run `sudo service nginx restart` if you change the rustdesk.conf manually.
 
 
+7. Login to the web page
+
+* Open https://<YOUR_DOMAIN> in the browser, log in using the default user name "admin" and password "test1234", then change the password to your own.
