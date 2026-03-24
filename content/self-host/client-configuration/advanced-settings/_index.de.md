@@ -1369,6 +1369,19 @@ Nur verfügbar in RustDesk-Client >=1.4.1 und Pro-Server >= 1.5.9.
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Fordert die steuernde Seite auf, beim Sitzungsende eine Notiz einzugeben. Der Notizdialog wird nur angezeigt, wenn die steuernde Seite bei einem Konto angemeldet ist.
+
+**Standort**:
+
+**Desktop** Einstellungen → Allgemein → Sonstiges → Am Ende der Verbindung nach einer Notiz fragen
+**Mobil** Einstellungen → Am Ende der Verbindung nach einer Notiz fragen
+
+| Werte | Standard | Beispiel |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 Das Gerät nicht registrieren, Sie werden es nicht auf der Geräteseite in der Web-Konsole sehen.

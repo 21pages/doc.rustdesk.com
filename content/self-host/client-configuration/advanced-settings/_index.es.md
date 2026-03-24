@@ -1369,6 +1369,19 @@ Solo disponible en cliente RustDesk >=1.4.1 y servidor Pro >= 1.5.9.
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Solicita al lado controlador que introduzca una nota cuando finaliza la sesión. El cuadro de diálogo de nota solo se muestra cuando el lado controlador ha iniciado sesión en una cuenta.
+
+**Ubicación**:
+
+**Escritorio** Configuración → General → Otro → Pedir nota al finalizar la conexión
+**Móvil** Configuración → Pedir nota al finalizar la conexión
+
+| Valores | Predeterminado | Ejemplo |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 No registrar el dispositivo, no lo verás en la página de dispositivos en consola web.

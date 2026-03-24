@@ -1391,6 +1391,19 @@ Only available in RustDesk client >=1.4.1 and Pro server >= 1.5.9.
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Prompt the controlling side to enter a note when the session ends. The note dialog is shown only when the controlling side is logged in to an account.
+
+**Location**:
+
+**Desktop** Settings → General → Others → Ask for note at end of connection
+**Mobile** Settings → Ask for note at end of connection
+
+| Values | Default | Example |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 Do not register the device, you will not see it in the devices page on web console. 

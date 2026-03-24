@@ -1381,6 +1381,19 @@ Dostępna tylko w kliencie RustDeska >=1.4.1 i serwerze Pro >= 1.5.9.
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Monituje stronę sterującą o wpisanie notatki po zakończeniu sesji. Okno dialogowe notatki jest wyświetlane tylko wtedy, gdy strona sterująca jest zalogowana na konto.
+
+**Lokalizacja**:
+
+**K. stacjonarny** Ustawienia → Ogólne → Inne → Poproś o notatkę po zakończeniu połączenia
+**Smartfon** Ustawienia → Poproś o notatkę po zakończeniu połączenia
+
+| Wartości | Domyślnie | Przykład |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 Nie rejestruj urządzenia, nie będzie ono widoczne na stronie urządzeń w konsoli webowej.

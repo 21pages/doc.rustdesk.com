@@ -1369,6 +1369,19 @@ Uniquement disponible dans le client RustDesk >=1.4.1 et le serveur Pro >= 1.5.9
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Invite le côté contrôlant à saisir une note à la fin de la session. La boîte de dialogue de note s'affiche uniquement lorsque le côté contrôlant est connecté à un compte.
+
+**Emplacement** :
+
+**Bureau** Paramètres → Général → Autre → Demander une note à la fin de la connexion
+**Mobile** Paramètres → Demander une note à la fin de la connexion
+
+| Valeurs | Défaut | Exemple |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 Ne pas enregistrer l'appareil, vous ne le verrez pas dans la page des appareils sur la console web.

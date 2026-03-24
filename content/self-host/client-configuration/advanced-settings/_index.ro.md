@@ -1382,6 +1382,19 @@ Disponibilă doar în clientul RustDesk >=1.4.1 și serverul Pro >= 1.5.9.
 | :------: | :------: | :------: |
 | Y, N | N | `allow-numeric-one-time-password=Y` |
 
+### allow-ask-for-note
+
+Solicită părții care controlează să introducă o notă la încheierea sesiunii. Fereastra de dialog pentru notă este afișată doar atunci când partea care controlează este autentificată într-un cont.
+
+**Locație**:
+
+**Desktop** Settings → General → Other → Ask for note at end of connection
+**Mobil** Settings → Ask for note at end of connection
+
+| Valori | Implicit | Exemplu |
+| :------: | :------: | :------: |
+| Y, N | N | `allow-ask-for-note=Y` |
+
 ### register-device
 
 Nu înregistrați dispozitivul, nu îl veți vedea în pagina de dispozitive din consola web.
